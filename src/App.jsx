@@ -1,13 +1,17 @@
 
 import './App.css'
+import Header from './components/Header'
+import CourseContainer from './components/coursecontainer/CourseContainer'
+
 
 function App() {
-  // const [count, setCount] = useState(0)
-
+ 
   return (
-    <>
-     <p className='text-4xl text-red-500 '> hi this is  </p>
-    </>
+    <div className="bg-gray-100 w-full">
+<Header></Header>
+<CourseContainer></CourseContainer>
+
+    </div>
   )
 }
 
