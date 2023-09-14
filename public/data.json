@@ -1,0 +1,66 @@
+[
+    {
+      "course_img": "https://img.freepik.com/free-photo/start-up-designers_1098-14229.jpg?size=626&ext=jpg&ga=GA1.2.2010618524.1694701074&semt=ais",
+      "course_title": "Web Development Fundamentals",
+      "course_description": "Learn the basics of web development, including HTML, CSS, and JavaScript. This comprehensive course covers everything you need to know to get started on your web development journey.",
+      "price": 49.99,
+      "credit": 3
+    },
+    {
+      "course_img": "https://img.freepik.com/free-photo/girl-attending-university_1098-14156.jpg?size=626&ext=jpg&ga=GA1.2.2010618524.1694701074&semt=ais",
+      "course_title": "Python Programming for Beginners",
+      "course_description": "Get started with Python programming from scratch. Explore the language's syntax, data structures, and build your first Python applications.",
+      "price": 39.99,
+      "credit": 2
+    },
+    {
+      "course_img": "https://img.freepik.com/free-photo/entrepreneurs-meeting-office_23-2148898688.jpg?size=626&ext=jpg&ga=GA1.2.2010618524.1694701074&semt=ais",
+      "course_title": "Data Science Essentials",
+      "course_description": "Explore data analysis, visualization, and machine learning with Python. This course equips you with the skills to work with real-world datasets and make data-driven decisions.",
+      "price": 59.99,
+      "credit": 4
+    },
+    {
+      "course_img": "https://img.freepik.com/free-photo/entrepreneurs-meeting-office_23-2148898690.jpg?size=626&ext=jpg&ga=GA1.2.2010618524.1694701074&semt=ais",
+      "course_title": "Mobile App Development with React Native",
+      "course_description": "Build cross-platform mobile apps using React Native framework. Create responsive and user-friendly mobile applications for iOS and Android.",
+      "price": 69.99,
+      "credit": 3
+    },
+    {
+      "course_img": "https://img.freepik.com/free-photo/work-net_1098-16441.jpg?size=626&ext=jpg&ga=GA1.2.2010618524.1694701074&semt=ais",
+      "course_title": "Introduction to Artificial Intelligence",
+      "course_description": "Learn the fundamentals of AI and its applications. Dive into the world of machine learning, natural language processing, and computer vision.",
+      "price": 54.99,
+      "credit": 3
+    },
+    {
+      "course_img": "https://img.freepik.com/free-photo/online-data_1098-16295.jpg?size=626&ext=jpg&ga=GA1.2.2010618524.1694701074&semt=ais",
+      "course_title": "Advanced JavaScript Concepts",
+      "course_description": "Dive deeper into JavaScript with advanced topics and best practices. Master asynchronous programming, ES6 features, and build complex web applications.",
+      "price": 44.99,
+      "credit": 2
+    },
+    {
+      "course_img": "https://img.freepik.com/free-photo/diligent-student_1098-13631.jpg?size=626&ext=jpg&ga=GA1.2.2010618524.1694701074&semt=ais",
+      "course_title": "Database Management with SQL",
+      "course_description": "Master SQL for effective database management and querying. Understand relational databases, create complex queries, and optimize database performance.",
+      "price": 49.99,
+      "credit": 3
+    },
+    {
+      "course_img": "https://img.freepik.com/free-photo/school-education_1098-13585.jpg?size=626&ext=jpg&ga=GA1.2.2010618524.1694701074&semt=ais",
+      "course_title": "Digital Marketing Strategies",
+      "course_description": "Learn the latest digital marketing techniques and strategies. Gain insights into SEO, social media marketing, and online advertising to grow your business.",
+      "price": 59.99,
+      "credit": 3
+    },
+    {
+      "course_img": "https://img.freepik.com/free-photo/teacher-young-instructor-office-suit-class-with-computer-whiteboard-with-pen_140725-163477.jpg?size=626&ext=jpg&ga=GA1.2.2010618524.1694701074&semt=ais",
+      "course_title": "Cybersecurity Fundamentals",
+      "course_description": "Explore the basics of cybersecurity and protect your online presence. Identify common threats, secure your devices, and build a cybersecurity plan.",
+      "price": 49.99,
+      "credit": 2
+    }
+  ]
+  
