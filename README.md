@@ -15,7 +15,7 @@ Answer:Here are the 3 project features:
 
 Q2: Discuss How you managed the state in your assignment project.
 
-
+ 
 Answer:
 In my project I declared the states 
 in parent component.
