@@ -1,6 +1,6 @@
 import PropTypes from "prop-types";
-const Course = ({ course }) => {
-  const { course_img, id, course_title, course_description, price, credit } =
+const Course = ({ course ,handle_select}) => {
+  const { course_img,  course_title, course_description, price, credit } =
     course;
   return (
     <div className="bg-white flex flex-col my-5 p-5 rounded">
@@ -68,7 +68,7 @@ const Course = ({ course }) => {
        
         </div>
         <div className="bg-blue-400 w-full flex justify-center items-center mt-2">
-        <button className="rounded-5 text-center bg-blue-400 text-white font-bold p-5 ">select</button>
+        <button onClick={()=> handle_select(credit,course_title)} className="rounded-5 text-center bg-blue-400 text-white font-bold p-5 ">select</button>
         </div>
       </div>
     
@@ -78,6 +78,7 @@ const Course = ({ course }) => {
 };
 Course.propTypes = {
   course: PropTypes.object,
+  handle_select:PropTypes.func
 };
 
 export default Course;
