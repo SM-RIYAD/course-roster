@@ -1,9 +1,9 @@
 import PropTypes from "prop-types";
 const Course = ({ course ,handle_select}) => {
-  const { course_img,  course_title, course_description, price, credit } =
+  const { course_img,  course_title, course_description, price ,credit } =
     course;
   return (
-    <div className="bg-white flex flex-col my-5 p-5 rounded">
+    <div className="bg-white flex flex-col my-5 p-5 rounded-lg">
       <div className="img-container p-2 h-[200px]">
         <img className="cover h-full w-full" src={course_img} alt="" />
       </div>
@@ -12,10 +12,10 @@ const Course = ({ course ,handle_select}) => {
 
         <div className=" h-[150px]  flex flex-col items-center
         
-        ">  <p className="text-gray my-5">{course_description}</p></div>
+        ">  <p className="text-gray-500 my-5">{course_description}</p></div>
       
 
-        <div className="flex items-center gap-20 my-2 justify-between ">
+        <div className="flex items-center gap-28 my-2 justify-between ">
             <div className="flex gap-2">
             <p>
             <svg
@@ -68,7 +68,7 @@ const Course = ({ course ,handle_select}) => {
        
         </div>
         <div className="bg-blue-400 w-full flex justify-center items-center mt-2">
-        <button onClick={()=> handle_select(credit,course_title)} className="rounded-5 text-center bg-blue-400 text-white font-bold p-5 ">select</button>
+        <button onClick={()=> handle_select(credit,course_title,course)} className="rounded-lg text-center text-xl bg-blue-400 text-white font-bold p-3  ">Select</button>
         </div>
       </div>
     
